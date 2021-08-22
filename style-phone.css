@@ -1,0 +1,142 @@
+:root {
+    --white: #ffffff;
+    --gray-light: #f5fbfc;
+    --gray-dark: #08090a;
+    --green: #35b8be;
+    --green-dark: #1b9097;
+    --green-light: #f5fbfc;
+    --blue-dark: #546285;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header .top{
+   display : none;
+}
+
+header .logo{
+    width: 80px;
+    height: 50px;
+}
+header img{
+    margin-top: 20px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+nav{
+    display : flex;
+    justify-content: space-between;
+}
+header ul{
+    display: none;
+}
+header .bloc {
+    text-align: center;
+}
+header .bloc h1{
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 65px;
+    margin-top: 80px;
+}
+.blue{
+    color : var(--green);
+}
+header .bloc p{
+    color : var(--blue-dark);
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+header .btn{
+    text-decoration: none;
+    color : var(--white);
+    border-radius: 12px;
+    padding: 20px 28px;
+    font-size: 20px;
+    background: no-repeat var(--green) url("images/button_wave.svg");
+}
+.order{
+    width: 350px;
+    height: 350px;
+}
+.order {
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+.home{
+    background-color: var(--green-light);
+    padding-top: 80px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.home h2{
+    color: var(--green);
+    font-size:50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.home p{
+    color : var(--blue-dark);
+    margin-bottom: 70px;
+    font-size: 20px;
+}
+.home a {
+    text-decoration: none;
+    color : var(--white);
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 20px 28px;
+    background: no-repeat var(--green) url("images/button_wave.svg");
+}
+.food{
+    margin-top: 120px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 320px;
+    height: 380px;
+}
+.how{
+    text-align: center;
+    color: var(--green);
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.colonnes{
+    margin-bottom: 150px;
+    text-align: center;
+}
+.colonnes img{
+    height: 270px;
+    margin-top: 70px;
+}
+.colonnes p{
+    color: var(--blue-dark);
+    font-size: 20px;
+}
+.footer{
+    background-color: var(--green-light);
+    padding: 20px;
+}
+footer ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+footer p{
+    color: var(--green-dark);
+    font-weight: bold;
+}
+footer .btn{
+    color : var(--blue-dark);
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
